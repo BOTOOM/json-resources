@@ -1,0 +1,39 @@
+{
+ "version": 5,
+ "folders": [
+  {
+   "name": "My Sample Snippets",
+   "info": "These are some sample snippets to get you started. You can edit these snippets or create new ones.",
+   "snippets": [
+    {
+     "name": "Demo - Time and Dates",
+     "shortcut": "/d8",
+     "type": "html",
+     "text": "Text Blaze can insert the current date. Today is {time: MMMM D, YYYY}. You can customize the date formatting. For example, {time: MMM D} or {time: YYYY-MM-DD}.\n\nYou can also insert a date relative to the present. In 2 weeks, it will be {time: MMMM D, YYYY; shift=2W}; and in one month it will be {time: MMMM D, YYYY; shift=1M}.\n\nLearn more about dates and times here: https://blaze.today/commands/time/",
+     "html": "<p style=\"margin:0px !important;padding:0px !important;\" data-mce-style=\"margin:0px !important;padding:0px !important;\">Text Blaze can insert the current date. Today is {time: MMMM D, YYYY}. You can customize the date formatting. For example, {time: MMM D} or {time: YYYY-MM-DD}.</p><p style=\"margin:0px !important;padding:0px !important;\" data-mce-style=\"margin:0px !important;padding:0px !important;\"><br/></p><p style=\"margin:0px !important;padding:0px !important;\" data-mce-style=\"margin:0px !important;padding:0px !important;\">You can also insert a date relative to the present. In 2 weeks, it will be {time: MMMM D, YYYY; shift=2W}; and in one month it will be {time: MMMM D, YYYY; shift=1M}.</p><p style=\"margin:0px !important;padding:0px !important;\" data-mce-style=\"margin:0px !important;padding:0px !important;\"><br/></p><p style=\"margin:0px !important;padding:0px !important;\" data-mce-style=\"margin:0px !important;padding:0px !important;\">Learn more about dates and times here: <a href=\"https://blaze.today/commands/time/\">https://blaze.today/commands/time/</a></p>"
+    },
+    {
+     "name": "Demo - Cursor",
+     "shortcut": "/cur",
+     "type": "text",
+     "text": "You can place the mouse cursor anywhere in a snippet after insertion (like here -->{cursor}<--)",
+     "html": "You can place the mouse cursor anywhere in a snippet after insertion (like here --&#x3E;{cursor}&#x3C;--)"
+    },
+    {
+     "name": "mover tickets",
+     "shortcut": "/mti",
+     "type": "text",
+     "text": "Changes are being deployed to QA in 10 minutes, you will see the changes in the environment. Please move your changes tickets to the `integrated QA` column.",
+     "html": "Changes are being deployed to QA in 10 minutes, you will see the changes in the environment. Please move your changes tickets to the &#x60;integrated QA&#x60; column."
+    },
+    {
+     "name": "checks PR",
+     "shortcut": "/check",
+     "type": "html",
+     "text": "Remember to leave a check if and only if you have tested your changes in dev and there are no inconsistencies or bugs caused by the changes that have been uploaded.\nRemember that several components are shared between different sections of the application, so if you edit something, be sure to check that you did not break something in another section of the application.",
+     "html": "<p style=\"margin:0px !important;padding:0px !important;\" data-mce-style=\"margin:0px !important;padding:0px !important;\"><span style=\"color:#1d1c1d;background-color:#ffffff;\" data-mce-style=\"color:#1d1c1d;background-color:#ffffff;\">Remember to leave a check if and only if you have tested your changes in dev and there are no inconsistencies or bugs caused by the changes that have been uploaded.</span></p><p style=\"margin:0px !important;padding:0px !important;\" data-mce-style=\"margin:0px !important;padding:0px !important;\"><span style=\"color:#1d1c1d;background-color:#ffffff;\" data-mce-style=\"color:#1d1c1d;background-color:#ffffff;\">Remember that several components are shared between different sections of the application, so if you edit something, be sure to check that you did not break something in another section of the application.</span></p>"
+    }
+   ]
+  }
+ ]
+}
